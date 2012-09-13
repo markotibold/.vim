@@ -1,5 +1,7 @@
-" ln -s ~/.vim/.gvimrc ~/.gvimrc
-:colorscheme molokai
+" Based on http://stevelosh.com/blog/2010/09/coming-home-to-vim/#some-background-about-me
+set guifont=Monaco:h12
+colorschem molokai
+set vb " Disable the audible bell
 
 set nocompatible " Disable vi compatibility
 
@@ -82,4 +84,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-
+" jump to beginning and end of line
+nnoremap <tab> 0
+nnoremap \ $
