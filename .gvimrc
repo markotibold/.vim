@@ -95,3 +95,6 @@ nnoremap <space> ddp
 " uppercase current word
 nnoremap <C-u> vawUe
 inoremap <C-u> <ESC>vawUi
+
+" quickly edit this file
+nnoremap <leader>ev :vsplit $MYGVIMRC<cr>
