@@ -87,3 +87,11 @@ nnoremap <C-l> <C-w>l
 " jump to beginning and end of line
 nnoremap <tab> 0
 nnoremap \ $
+
+" move current line up / down
+nnoremap <S-space> ddkP
+nnoremap <space> ddp
+
+" uppercase current word
+nnoremap <C-u> vawUe
+inoremap <C-u> <ESC>vawUi
