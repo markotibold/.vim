@@ -98,3 +98,4 @@ inoremap <C-u> <ESC>vawUi
 
 " quickly edit this file
 nnoremap <leader>ev :vsplit $MYGVIMRC<cr>
+nnoremap <leader>sv :source $MYGVIMRC<cr>
