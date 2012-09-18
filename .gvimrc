@@ -78,6 +78,7 @@ nnoremap <leader>v V`]
 
 inoremap jj <ESC>
 
+nnoremap <leader>w <C-w>v<C-w>l
 " Easy navigation through open windows
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -99,3 +100,4 @@ inoremap <C-u> <ESC>vawUi
 " quickly edit this file
 nnoremap <leader>ev :vsplit $MYGVIMRC<cr>
 nnoremap <leader>sv :source $MYGVIMRC<cr>
+
