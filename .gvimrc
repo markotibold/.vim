@@ -101,3 +101,5 @@ inoremap <C-u> <ESC>vawUi
 nnoremap <leader>ev :vsplit $MYGVIMRC<cr>
 nnoremap <leader>sv :source $MYGVIMRC<cr>
 
+" automatically fix common typs
+iabbrev teh the
