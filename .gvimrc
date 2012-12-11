@@ -103,3 +103,6 @@ nnoremap <leader>sv :source $MYGVIMRC<cr>
 
 " automatically fix common typs
 iabbrev teh the
+
+" NERDTree config
+let NERDTreeIgnore = ['\.pyc$']
