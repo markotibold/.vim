@@ -1,6 +1,6 @@
 " Based on http://stevelosh.com/blog/2010/09/coming-home-to-vim/#some-background-about-me
 set guifont=Monaco:h12
-colorschem molokai
+colorschem jellybeans " https://github.com/nanotech/jellybeans.vim
 set vb " Disable the audible bell
 
 set nocompatible " Disable vi compatibility
@@ -104,5 +104,7 @@ nnoremap <leader>sv :source $MYGVIMRC<cr>
 " automatically fix common typs
 iabbrev teh the
 
-" NERDTree config
+" NERDTree config https://github.com/scrooloose/nerdtree
 let NERDTreeIgnore = ['\.pyc$']
+nnoremap nt :NERDTreeToggle<cr>
+
